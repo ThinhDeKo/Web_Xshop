@@ -1,0 +1,264 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.04);
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+    display: flex;
+}
+.modal-container{
+    background-color: #fff;
+    width: 800px;
+    border-radius: 5px;
+
+}
+
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    margin-top: 5px;
+}
+.close{
+    margin-top: 5px;
+}
+hr{
+    margin-top: 10px;
+}
+/* Icon tắt */
+.modal-img img{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 8px;
+}
+/* image */
+.text-list ul{
+    margin-left: 20px;
+}
+.input{
+    padding: 10px 0px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    margin-top: 32px;
+    margin: 32px 24px;
+}
+/* --------------------- */
+.text-name p{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+}
+#drop{
+    margin-bottom: 10px;
+    width: 50px;
+}
+.quantity{
+    margin-left: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.text-list ul{
+    color: #6a737a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+/* --------end text-name----------- */
+
+
+.delete{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 12px;
+    color: rgb(97, 97, 97);
+}
+.delete:hover{
+    color: #000;
+}
+.recy{
+    margin-right: 3px;
+}
+/* Phần xóa */
+
+
+
+/* ---------------------------- */
+.price{
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 5px 0px 5px 5px;
+    
+}
+#price-main{
+    color: red;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+/* --------------Mã giảm giá-------------- */
+.cart-center{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.cart-coupon{
+    margin-left: 24px ;
+}
+#cart-title{
+    margin-bottom: 200px;
+    color: #32373d;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart-total{
+    margin-right: 24px;
+}
+.voucher{
+    background-color:#ffffff;
+    border-color:#cbd1d6;
+    border-radius:4px;
+    border-style: solid;
+    border-width: 1px;
+    color:#444b52;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 3px 8px;
+    margin-top: 8px;
+}
+.btn-voucher{
+    background-color: #cb1c22;
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+.btn-voucher:hover{
+    background-color: #661e19 ;
+}
+.text-normal{
+    display: flex;
+    justify-content: space-evenly;
+}
+.first{
+    display: flex;
+    flex: 1;
+}
+.mon{
+    margin-left: 50px;
+}
+.last{
+    font-weight: 900;
+    font-size: 19px;
+}
+/* end voucher------------- */
+
+
+
+form{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+.head{
+    display: flex;
+    padding-left: 20px;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+.cus{
+    padding: 5px 8px;
+    border-radius: 4px;
+    margin-left: 5px;
+    
+
+    background-color:#ffffff;
+    border-color:#cbd1d6;
+    border-radius:4px;
+    border-style: solid;
+    border-width: 1px;
+    color:#444b52;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 3px 8px;
+    margin-top: 8px;
+}
+.email{
+    display: flex;
+    padding: 5px 117px;
+    margin-left: 24px;
+    border-radius: 4px;
+    text-align: left;
+    background-color:#ffffff;
+    border-color:#cbd1d6;
+    border-radius:4px;
+    border-style: solid;
+    border-width: 1px;
+    color:#444b52;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.address{
+    display: flex;
+    padding: 5px 117px;
+    margin-left: 24px;
+    border-radius: 4px;
+    text-align: left;
+    background-color:#ffffff;
+    border-color:#cbd1d6;
+    border-radius:4px;
+    border-style: solid;
+    border-width: 1px;
+    color:#444b52;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.Payment-method{
+    display: flex;
+}
+/* end information-customer */
+
+
+/* Button submit */
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.buy{
+    padding: 15px 90px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.buy:hover{
+    background-color: rgb(105, 14, 14);
+}

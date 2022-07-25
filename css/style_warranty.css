@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.header ul{
+    display: flex; 
+    grid-gap: 30px;
+    margin-bottom: 40px;
+    list-style: none;
+    background-color: #ccc;
+    width: 100%;
+    padding: 20px;
+}
+.header ul li{
+    margin-left: 50px;
+}
+#box{
+    border: 1px solid black;
+    padding-right: 50px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+}
+.main h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+#title{
+    font-size: 20px;
+    margin-top: 20px;
+    color: red;
+}
+.list{
+    margin-top: 20px;
+    font-size: 19px;
+}
+.list li{
+   margin-bottom: 5px;
+}
+.warning li{
+    font-size: 19px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#free{
+    margin-bottom: 5px;
+    font-size: 19px;
+}
+.list2{
+    margin-top: 10px;
+    font-size: 19px;
+}
+.list2 li{
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+#text{
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+}
